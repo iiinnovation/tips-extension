@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>新标签页</title>
+  <link rel="stylesheet" href="newtab.css">
+</head>
+<body>
+  <div class="container">
+    <div class="card" id="card">
+      <div class="card-header">
+        <span class="badge">📝 来自你的收藏</span>
+        <span class="date" id="date"></span>
+      </div>
+      
+      <div class="card-content" id="content">
+        <p class="loading">加载中...</p>
+      </div>
+      
+      <div class="card-footer">
+        <div class="source" id="source"></div>
+        <div class="tags" id="tags"></div>
+      </div>
+      
+      <div class="card-actions">
+        <a class="btn btn-secondary" id="viewSource" href="#" target="_blank">查看原文</a>
+        <button class="btn btn-secondary" id="nextBtn">下一条</button>
+        <button class="btn btn-primary" id="openTips">打开 Tips</button>
+      </div>
+    </div>
+    
+    <div class="empty-state hidden" id="emptyState">
+      <div class="empty-icon">💡</div>
+      <h2>还没有收藏任何内容</h2>
+      <p>在任意网页选中文字后按 <kbd>⌥</kbd> + <kbd>S</kbd> 保存</p>
+      <button class="btn btn-primary" id="openTipsEmpty">打开 Tips</button>
+    </div>
+    
+    <div class="stats" id="stats"></div>
+  </div>
+  
+  <script src="newtab.js"></script>
+</body>
+</html>
