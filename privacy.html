@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - Tips Extension</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      line-height: 1.7;
+      color: #1a1a2e;
+      background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+      min-height: 100vh;
+      padding: 40px 20px;
+    }
+    
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+      padding: 48px;
+    }
+    
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 8px;
+      background: linear-gradient(135deg, #6366f1, #8b5cf6);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    
+    .subtitle {
+      color: #64748b;
+      margin-bottom: 32px;
+      font-size: 0.95rem;
+    }
+    
+    h2 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin-top: 32px;
+      margin-bottom: 12px;
+      color: #1e293b;
+    }
+    
+    p {
+      margin-bottom: 16px;
+      color: #475569;
+    }
+    
+    ul {
+      margin: 16px 0;
+      padding-left: 24px;
+      color: #475569;
+    }
+    
+    li {
+      margin-bottom: 8px;
+    }
+    
+    .highlight {
+      background: linear-gradient(135deg, #f0f9ff, #e0f2fe);
+      border-left: 4px solid #6366f1;
+      padding: 16px 20px;
+      border-radius: 0 8px 8px 0;
+      margin: 24px 0;
+    }
+    
+    .highlight p {
+      margin: 0;
+      color: #1e40af;
+      font-weight: 500;
+    }
+    
+    .footer {
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid #e2e8f0;
+      text-align: center;
+      color: #94a3b8;
+      font-size: 0.875rem;
+    }
+    
+    a {
+      color: #6366f1;
+      text-decoration: none;
+    }
+    
+    a:hover {
+      text-decoration: underline;
+    }
+    
+    @media (max-width: 640px) {
+      .container {
+        padding: 32px 24px;
+      }
+      
+      h1 {
+        font-size: 1.5rem;
+      }
+    }
+    
+    @media (prefers-color-scheme: dark) {
+      body {
+        background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+        color: #e2e8f0;
+      }
+      
+      .container {
+        background: #1e293b;
+        box-shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
+      }
+      
+      h2 {
+        color: #f1f5f9;
+      }
+      
+      p, li {
+        color: #cbd5e1;
+      }
+      
+      .highlight {
+        background: linear-gradient(135deg, #1e3a5f, #1e3a8a);
+      }
+      
+      .highlight p {
+        color: #93c5fd;
+      }
+      
+      .footer {
+        border-top-color: #334155;
+        color: #64748b;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Privacy Policy</h1>
+    <p class="subtitle">Tips - Smart Content Clipper | Last updated: January 2025</p>
+    
+    <div class="highlight">
+      <p>🔒 Tips stores all your data locally on your device. We do not collect, transmit, or store any of your personal information on external servers.</p>
+    </div>
+    
+    <h2>Data Collection</h2>
+    <p>Tips does <strong>not</strong> collect any personal data. Specifically:</p>
+    <ul>
+      <li>We do not collect your browsing history</li>
+      <li>We do not collect the content you save</li>
+      <li>We do not collect usage analytics</li>
+      <li>We do not use cookies or tracking pixels</li>
+      <li>We do not require account registration</li>
+    </ul>
+    
+    <h2>Data Storage</h2>
+    <p>All data created by Tips is stored locally using Chrome's built-in storage API (<code>chrome.storage.local</code>). This includes:</p>
+    <ul>
+      <li>Saved content clips</li>
+      <li>Tags and categories</li>
+      <li>User preferences and settings</li>
+    </ul>
+    <p>This data remains on your device and is never transmitted to any external server.</p>
+    
+    <h2>Permissions Explained</h2>
+    <p>Tips requests the following browser permissions:</p>
+    <ul>
+      <li><strong>storage</strong>: To save your clipped content locally</li>
+      <li><strong>unlimitedStorage</strong>: To allow saving more content without hitting browser limits</li>
+      <li><strong>activeTab</strong>: To access the current page when you trigger the save shortcut</li>
+      <li><strong>clipboardWrite</strong>: To enable the "Copy" feature in the popup</li>
+      <li><strong>alarms</strong>: To schedule automatic cleanup of old content</li>
+    </ul>
+    
+    <h2>Third-Party Services</h2>
+    <p>Tips does not integrate with any third-party services, analytics platforms, or advertising networks.</p>
+    
+    <h2>Data Export</h2>
+    <p>You can export all your saved content at any time using the Export feature. The exported file is a standard Markdown document that you control entirely.</p>
+    
+    <h2>Data Deletion</h2>
+    <p>You can delete individual clips or clear all data at any time through the Settings panel. Uninstalling the extension will also remove all stored data.</p>
+    
+    <h2>Updates to This Policy</h2>
+    <p>If we make changes to this privacy policy, we will update the "Last updated" date at the top of this page.</p>
+    
+    <h2>Contact</h2>
+    <p>If you have any questions about this privacy policy, please open an issue on our <a href="https://github.com/user/tips-extension" target="_blank">GitHub repository</a>.</p>
+    
+    <div class="footer">
+      <p>&copy; 2025 Tips Extension. All rights reserved.</p>
+    </div>
+  </div>
+</body>
+</html>
